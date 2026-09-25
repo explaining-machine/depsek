@@ -7,7 +7,7 @@ include:
   - README.md
   - LICENSE.md
 url: https://explaining-machine.github.io
-baseurl: /depsekr
+baseurl: /depsek
 
 title: Explaining Machine
 description: A machine is a thing. Things can not think. ...but some of them can thingk!
@@ -15,7 +15,7 @@ description: A machine is a thing. Things can not think. ...but some of them can
 lm:
   model: deepseek-flash
   max_tokens: 65536
-  reasoning_effort: high
+  reasoning_effort: none
 
 app:
   worker_name: depsekapi.js
